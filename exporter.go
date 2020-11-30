@@ -335,7 +335,7 @@ func main() {
 		return
 	}
 
-	initWbem()
+	//initWbem()
 
 	isInteractive, err := svc.IsAnInteractiveSession()
 	if err != nil {
